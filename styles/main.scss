@@ -1,0 +1,40 @@
+$font-stack: system-ui, sans-serif;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: $font-stack;
+    background-color: lightgray;
+
+}
+
+#app {
+  max-width: 48rem;
+  margin-inline: auto;
+  padding: 2rem;
+}
+
+.todo-app{
+  .task-head{
+    border-radius: 10px;
+    background: linear-gradient(
+      135deg,
+      #6C4CE4,
+      #9067f2
+    );
+    padding:1rem;
+    color:rgb(248, 245, 245);
+    margin-bottom: 1rem;
+    h1{
+
+    }
+  }
+
+  .task-container{
+        border-radius: 10px;
+
+  }
+}
